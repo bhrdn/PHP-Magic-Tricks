@@ -24,7 +24,7 @@ if (isset($_GET['md5']))
 
 (```Indonesian mode ON```)
 
-Disini kita mengambil inti dari kode tersebut yaitu ```$md5 == md5($md5)``` hmm... bruteforce?? panjang dari md5 sendiri yaitu 32digit dan kita akan melakukan **2^128** percobaan :scream:, misal menggunakan header **0e** untuk 2digit awalan md5, karna 0e{....} == 0 (true). Mari kita buat payload sederhana untuk mebandingkan ```str == md5(str)```.
+Disini kita mengambil inti dari kode tersebut yaitu ```$md5 == md5($md5)``` hmm... bruteforce?? panjang maksimal dari md5 sendiri yaitu ```32 hex digits``` dan kita akan melakukan ```2^128``` (32 x 4bit) percobaan :scream:, misal menggunakan header **0e** untuk 2digit awalan md5, karna 0e{....} == 0 (true). Mari kita buat payload sederhana untuk mebandingkan ```str == md5(str)```.
 
 ```php
 <?php
@@ -60,3 +60,5 @@ var_dump($str == md5("\x0e\xd7\xb6\xea")); // true
 | sha1('aaroZmOk') | == | sha1('aaK1STfY') |
 | sha1('aaO8zKZF') | == | sha1('aa3OFF9m') |
 | 0010e2 | == | 1e3 |
+
+0e
