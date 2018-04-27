@@ -48,8 +48,8 @@ GOTCHAAA.. maka penyelesaian dari chall diatas ```str == md5(str)``` dapat disel
 ```php
 <?php
 $str = "0e100132199235687421930375421091";
-var_dump((int) $str == md5(urldecode("%02%a27%84")));
-var_dump($str == md5("\x0e\xd7\xb6\xea"));
+var_dump((int) $str == md5(urldecode("%02%a27%84"))); // true
+var_dump($str == md5("\x0e\xd7\xb6\xea")); // true
 ```
 
 ## Cheatsheet Type Juggling
