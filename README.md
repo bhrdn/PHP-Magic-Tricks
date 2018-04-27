@@ -1,1 +1,1 @@
-# PHP-Magic-Tricks
+# PHP Magic Tricks
