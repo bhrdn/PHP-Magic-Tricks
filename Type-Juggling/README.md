@@ -60,5 +60,3 @@ var_dump($str == md5("\x0e\xd7\xb6\xea")); // true
 | sha1('aaroZmOk') | == | sha1('aaK1STfY') |
 | sha1('aaO8zKZF') | == | sha1('aa3OFF9m') |
 | 0010e2 | == | 1e3 |
-
-0e
