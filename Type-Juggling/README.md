@@ -41,7 +41,7 @@ print "[0e{$md5}] => FOUND" . PHP_EOL;
 
 <img src="https://user-images.githubusercontent.com/13828056/39365080-5c24c364-4a5a-11e8-9025-8ae07a1ddf51.png" width="60%"></img>
 
-GOTCHAAA.. maka penyelesaian dari chall diatas ```str == md5(str)``` dapat diselesaikan dengan **215962017** :tada::tada::tada:
+GOTCHAAA.. maka penyelesaian dari chall diatas ```str == md5(str)``` dapat diselesaikan dengan **0e215962017** :tada::tada::tada:
 
 
 ## BONUS :laughing:
